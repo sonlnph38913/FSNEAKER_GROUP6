@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="10dp"
+
+    android:background="@drawable/brg"
+    >
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/remlogo"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To FSNEAKER"
+        android:textColor="#ff00"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

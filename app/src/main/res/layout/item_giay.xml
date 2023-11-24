@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/custom_item"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avatar2"
+        android:layout_gravity="center"
+        android:id="@+id/imgGiay"
+        />
+
+        <TextView
+            android:id="@+id/txtTenGiay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textColor="#ff00"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/txtGiaBan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gia"
+            android:textSize="12dp"
+            android:textColor="#0000FF"
+            android:textStyle="italic"
+
+            android:layout_gravity="center"/>
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

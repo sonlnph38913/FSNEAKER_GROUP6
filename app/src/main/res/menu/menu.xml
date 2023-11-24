@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/mLoaiGiay"
+        android:title="Loại Giày"
+        android:icon="@drawable/ic_loai"/>
+    <item android:id="@+id/mGiay"
+        android:title="Sneaker"
+        android:icon="@drawable/icon_sanpham"/>
+    <item android:id="@+id/mHoaDon"
+        android:title="Hóa Đơn"
+        android:icon="@drawable/icon_hoadon"/>
+    <item android:id="@+id/mThanhVien"
+        android:title="Thành Viên"
+        android:icon="@drawable/icon_thanhvien"/>
+    <item android:title="Thống Kê">
+        <menu>
+            <item android:id="@+id/mTop"
+                android:title="Top Bán Chạy"
+                android:icon="@drawable/icon_top"/>
+            <item android:id="@+id/mDoanhThu"
+                android:title="Doanh Thu"
+                android:icon="@drawable/icon_doanhthu"/>
+        </menu>
+    </item>
+    <item android:title="Người Dùng">
+        <menu>
+            <item android:id="@+id/mSetting"
+                android:title="Setting"
+                android:icon="@drawable/icon_setting"/>
+            <item android:id="@+id/mDoiMatKhau"
+                android:title="Đổi Mật Khẩu"
+                android:icon="@drawable/icon_doimk"/>
+            <item android:id="@+id/mDangXuat"
+                android:title="Đăng Xuất"
+                android:icon="@drawable/icon_dangxuat"/>
+        </menu>
+    </item>
+</menu>
